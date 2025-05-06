@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sin título</title>
+<title>SNT54</title>
 <style type="text/css">
 #TUPU {
 	background-color: #C96;
@@ -13,6 +13,16 @@
 	font-size: 24px;
 	color: #F60;
 	text-decoration: none;
+}
+.imagen-brillante img {
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 2, 0.2);
+object-fit: cover;
+transition: all 0.5s ease;
+}
+.imagen-brillante:hover img {
+filter: brightness(1.3) drop-shadow(0 0 8px rgba(255, 255, 255, 0.8));
+transform: scale(1.02);
 }
 </style></head>
 
@@ -34,15 +44,15 @@
   <table width="80%" border="0">
     <tr>
       <td><div align="center" class="sindicato">PLAZAS</div></td>
-      <td><div align="center" class="sindicato">MAESTROS</div></td>
-      <td><div align="center" class="sindicato">DIRECTORES</div></td>
-      <td><div align="center" class="sindicato">INTENDENCIA</div></td>
+      <td><div align="center" class="sindicato">INFORMACION RECIENTE</div></td>
+      <td><div align="center" class="sindicato">SERVICIOS Y DATOS</div></td>
+      <td><div align="center" class="sindicato"></div></td>
     </tr>
     <tr>
-      <td><div align="center"><img src="GIRON.jpg"  height="200"></div></td>
-      <td><div align="center"><img src="Arqui.jpg" height="200"></div></td>
-      <td><div align="center"><img src="director.jpg"  height="200" align="middle"></div></td>
-      <td class="sindicato"><div align="center"><img src="conserje.jpg"  height="200"></div></td>
+      <td class="imagen-brillante"><div align="center"><a href="plazas.html"><img src="GIRON.jpg"  height="200"></a></div></td>
+      <td class="imagen-brillante"><div align="center"><a href="avisos.html"><img src="info.jpg"  height="200"></a></div></td>
+      <td class="imagen-brillante"><div align="center"><a href="SERVICIOOOS.html"><img src="nose.jpg"  height="200"></a></div></td>
+      <div align="center"><img src="tele.png"  height="200"></div>
     </tr>
     <tr>
       <td colspan="4">&nbsp;</td>
